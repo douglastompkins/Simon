@@ -83,7 +83,7 @@ var flashColor = function() {
   };
 
 compareMoves = function() {
-	if (computerMoves[0] === userMoves[0]) {
+	if (computerMoves[x] === userMoves[x]) {
 		return trialAlert;
 	} else {
 		return badMoveAlert;
@@ -93,19 +93,13 @@ compareMoves = function() {
 
 	// for (var i in computerMoves) {
 	// 	for (var j in userMoves) {
-	// 		if (computerMoves[i] == userMoves[j]) {
+	// 		if (computerMoves[x] == userMoves[x]) {
 	// 			return trialAlert;
 	// 		};
 	// 	};
 	// };
 
-// finalCompare = function() {
-// 	if (compareMoves === true) {
-// 		return trialAlert;
-// 	} else {
-// 		return badMoveAlert;
-// 	};
-// };
+
 
 
 
@@ -170,20 +164,20 @@ green.addEventListener('click', greenClick);
 
 yellow.addEventListener('click', yellowClick);
 
-gamePlay = [flashColor, userInteraction, compareMoves, computersMovesLoop];
+// gamePlay = [flashColor, userInteraction, compareMoves, computersMovesLoop];
 
-var gameLoop = function() {
-	for (i = 0; i < gamePlay.length; i++) {
-		console.log(gameLoop[i]);
-     };
-  };
+// var gameLoop = function() {
+// 	for (i = 0; i < gamePlay.length; i++) {
+// 		console.log(gameLoop[i]);
+//      };
+//   };
 
-var computersMovesLoop = function() {
-	var index;
-	for (index = 0; i < computerMoves.length; index++) {
-		return computersMovesLoop[index] + flashColor;
-    };
-};
+// var computersMovesLoop = function() {
+// 	var index;
+// 	for (index = 0; i < computerMoves.length; index++) {
+// 		return computersMovesLoop[index] + flashColor;
+//     };
+// };
 
 
 
