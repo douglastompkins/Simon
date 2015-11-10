@@ -9,3 +9,10 @@ Pseudo Code:
 2. Computer choises a color box and it flashes.
 3. That box variable is saved.
 4. if User choises the right box the code runs line 2 again, if not, the game stops.
+
+Technologies used :
+1. MDN.com
+2. w3.schools.com
+
+Link to Game:
+http://douglastompkins.github.io/simon/
