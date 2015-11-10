@@ -11,11 +11,6 @@ var flashColor = function() {
 	setTimeout(userMoves());
 };
 
-// var gameMoves = {
-// 	moves: [],
-// 	movesCopy: [],
-// 	round: 0,
-// };
 
 var computerMoves = [];
 
@@ -90,44 +85,9 @@ compareMoves = function() {
 	};
 };
 
-
-	// for (var i in computerMoves) {
-	// 	for (var j in userMoves) {
-	// 		if (computerMoves[x] == userMoves[x]) {
-	// 			return trialAlert;
-	// 		};
-	// 	};
-	// };
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-// var target = event.target;
-// event.target.classList.add(selector)
-// event.target.removeEventListner(click, simonColors)
-// }
-
-
-
-
 // var newRound = function() {
 
 // };
-
-
-
 
 var clearGame = function(){
 	location.reload();
@@ -147,10 +107,6 @@ var badMoveAlert = function() {
 var trialAlert = function() {
 	window.alert("do it");
 };
-
-
-
-
 
 startButton.addEventListener('click', startGame);
 
@@ -178,9 +134,4 @@ yellow.addEventListener('click', yellowClick);
 // 		return computersMovesLoop[index] + flashColor;
 //     };
 // };
-
-
-
-
-	
 
